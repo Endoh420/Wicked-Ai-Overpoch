@@ -134,7 +134,7 @@ if (isServer) then {
 
 		//Credit to Zupa for original "add money to ai" code.
 		if (ai_hasMoney && Z_singleCurrency) then {
-		_cash = round(random 10) * 1000; // adds money to ai wallets in 1000x increments. 
+		_cash = round(random ai_moneyAmount) * 10; // adds money to ai wallets in 10x increments. 
 		_unit setVariable[Z_MoneyVariable,_cash ,true];
 		};
 		

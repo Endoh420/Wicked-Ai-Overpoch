@@ -24,7 +24,7 @@ if(isServer) then {
 	[[_position select 0,_position select 1,0],_rndnum,"Hard","Random",4,"Random","Hero","Random","Hero",_mission] call spawn_group;
 	[[_position select 0,_position select 1,0],_rndnum,"Hard","Random",4,"Random","Hero","Random","Hero",_mission] call spawn_group;
 	
-	[[_position select 0, _position select 1, 0],_rndnum,"Hard","Random",4,"Random","Doctor","Random",["Hero",200],_mission] call spawn_group;
+	[[_position select 0, _position select 1, 0],_rndnum,"Hard","Random",4,"Random","Doctor_DZ","Random",["Hero",200],_mission] call spawn_group;
 	 
 	//Static Guns
 	[[

@@ -57,7 +57,7 @@ _baserunover = [_baserunover0,_baserunover1,_baserunover2,_baserunover3,_baserun
 _num = 4 + round (random 3);
 [[(_position select 0) + 9, (_position select 1) - 13, 0],_num,"Hard",["Random","AT"],4,"Random","Rocker3_DZ","Random","Bandit",_mission] call spawn_group;
 [[(_position select 0) + 13, (_position select 1) + 15, 0],4,"Hard","Random",4,"Random","Rocker1_DZ","Random","Bandit",_mission] call spawn_group;
-[[(_position select 0) - 23, (_position select 1) - 25, 0],4,"Hard","Random",4,"Random","Rocker4_DZ","Random","Bandit",_mission] call spawn_group;
+[[(_position select 0) - 23, (_position select 1) - 25, 0],4,"Hard","Random",4,"Random","Rocker2_DZ","Random","Bandit",_mission] call spawn_group;
 [[(_position select 0) - 13, (_position select 1) + 15, 0],4,"Hard","Random",4,"Random","Policeman","Random","Bandit",_mission] call spawn_group;
 [[_position select 0, _position select 1, 0],4,"Hard","Random",4,"Random","Policeman","Random","Bandit",_mission] call spawn_group;
 
