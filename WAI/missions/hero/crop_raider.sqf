@@ -72,7 +72,7 @@ _num = 4 + round (random 3);
 
 
 //Heli Paradrop
-[[(_position select 0), (_position select 1), 0],200,"UH1H_DZ",10,"Hard","Random",4,"Random","Bandit","Random","Bandit",true,_mission] spawn heli_para;
+[[(_position select 0), (_position select 1), 0],[0,0,0],200,"UH1H_DZ",10,"Hard","Random",4,"Random","Bandit","Random","Bandit",true,_mission] spawn heli_para;
 
 
 //Condition
