@@ -16,6 +16,9 @@ if(isServer) then {
 	/* END GENERAL CONFIG */
 
 	/* AI CONFIG */
+	
+		ai_show_remaining			= false;		//this will show the ai count in the mission markers.
+		
 		ai_hasMoney				= false; 		//If you have ZSC installed then setting this to true will place money in ai wallets.
 		ai_moneyAmount				= 3000;			//If ai_hasMoney=true, this defines what's the max amount of money an AI can hold,
 										//this value gets multiplied by 10, means if ai_moneyAmount=3000; the maximum amount
